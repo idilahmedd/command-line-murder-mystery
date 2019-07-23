@@ -1,0 +1,216 @@
+    1  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    2  subl
+    3  source .zshrc
+    4  code
+    5  source.zshrc
+    6  source .zshrc
+    7  code
+    8  pwd
+    9  open .
+   10  ls
+   11  ls -l
+   12  ls -al
+   13  cd ~
+   14  pwd
+   15  mkdir code
+   16  ls
+   17  l
+   18  pwd
+   19  ls
+   20  cd code
+   21  pwd
+   22  l
+   23  mkdir unit1
+   24  ls
+   25  mkdir unit2
+   26  mkdir unit3
+   27  mkdir unit4
+   28  ls
+   29  cd unit1
+   30  pwd
+   31  cd code
+   32  cd ..
+   33  cd unit1
+   34  mkdir living-room
+   35  cd living-room
+   36  l
+   37  ls -al
+   38  touch books.txt
+   39  l
+   40  echo 'hi thre' > book.txt
+   41  cat books.txt
+   42  echo 'Hi there'
+   43  echo 'hi there' > books.txt
+   44  cat books.txt
+   45  echo 'goodbye' > books.txt
+   46  cat books.txt
+   47  echo 'hello' >> books.txt
+   48  cat books.txt
+   49  ls
+   50  cd code
+   51  ls
+   52  cd unit1
+   53  ls
+   54  cd living-room
+   55  l
+   56  rm book.txt
+   57  l
+   58  mkdir one
+   59  l
+   60  rm -rf one
+   61  l
+   62  touch one
+   63  l
+   64  echo 'some stuff' > one
+   65  echo 'Wolfe' >> books.txt
+   66  echo 'James Patterson' >> books.txt
+   67  echo 'Michelle Obama' >> books.txt
+   68  echo 'Mary Higgins Clark' >> books.txt
+   69  cat books.txt
+   70  cat books.txt | sort
+   71  l
+   72  cat books.txt | grep James
+   73  cat books.txt | grep M
+   74  cd ~
+   75  l
+   76  cd code
+   77  cd uit1
+   78  cd unit1
+   79  l
+   80  git clone https://github.com/idilahmedd/command-line-murder-mystery.git
+   81  l
+   82  cd command-line-murder-mystery
+   83  l
+   84  cat instructions
+   85  cd mystery
+   86  l
+   87  cd crimescene
+   88  cat crimescene
+   89  cat crimescene | grep CLUE
+   90  cat instructions
+   91  cat hint1
+   92  cd hint1
+   93  l
+   94  cd crimescene
+   95  ls crimescene
+   96  cat instructions
+   97  cd ..
+   98  cat instructions
+   99  cat hint1
+  100  cd crimescene
+  101  ls
+  102  pwd
+  103  cd mystery
+  104  ls
+  105  cd crimescene
+  106  cat crimescene | grep head
+  107  cat crimescene | grep CLUE
+  108  ls
+  109  cat people | grep Annabel
+  110  cat people
+  111  cat people | grep Male
+  112  cat instructions
+  113  ls
+  114  cat interviews
+  115  cd interviews
+  116  ls
+  117  cd ..
+  118  ls
+  119  ls streets
+  120  cat Buckingham_Place
+  121  cd ..
+  122  ls
+  123  cat hint1
+  124  cd mystery
+  125  head -n 20 people
+  126  cat people | grep Annabel
+  127  ls
+  128  cd ..
+  129  ls
+  130  cat hint3
+  131  cd mystery
+  132  ls
+  133  cd streets
+  134  cat streets | grep New Zealand
+  135  cd ..
+  136  head -n New Zealand people
+  137  head -n --New Zealand people
+  138  head -n 173 streets/Mattapan_Street | tail -n 1
+  139  ls
+  140  cd interviews
+  141  cat INTERVIEW #9437737
+  142  cat interviews | grep #9437737
+  143  cat interviews | grep 9437737
+  144  grep 9437737
+  145  ls
+  146  ls | grep 9437737
+  147  cat interview-9437737
+  148  cd ..
+  149  ls
+  150  ls people
+  151  cat people
+  152  cat people | grep Annabel
+  153  ls | grep Annabel Church
+  154  ls Annabel Church
+  155  ls
+  156  cd interviews
+  157  ls | grep Annabel Church
+  158  ls | grep --Annabel Church
+  159  ls 
+  160  ls | grep Church
+  161  cat people | grep Annabel Church
+  162  cat 699607
+  163  cat interviews | grep 699607
+  164  cat interview | grep 699607
+  165  cat interview-699607
+  166  cd ..
+  167  ls
+  168  cat vehicle
+  169  cat vehicles | grep L337
+  170  cat License Plate | sort
+  171  cat vehicles | grep L337
+  172  cat vehicles | grep L337--9
+  173  cat vehicles | grep L337..9
+  174  cat vehicles | grep blue
+  175  cat vehicles | grep color
+  176  cat vehicles | grep make
+  177  cd ..
+  178  cd mystery
+  179  ls
+  180  ls vehicles
+  181  cat vehicles
+  182  cat make | grep Honda
+  183  cat vehicles
+  184  cat Make | grep Honda
+  185  cat vehicles
+  186  cat vehicles | grep Honda Blue
+  187  cat vehicles
+  188  cat vehicles | grep Honda
+  189  cat vehicles | grep -A 5 L337
+  190  cat vehicles | grep -A 5 L337 | grep Blue
+  191  cat vehicles | grep -A 5 L337 | grep -A 4 Blue
+  192  cat vehicles | grep -A 5 L337 | grep -C 4 Blue
+  193  cat vehicles
+  194  cat vehicles | grep -A 5 L337 | grep -A 3 -B 2 Blue
+  195  cat vehicles | grep -A 5 L337 | grep -A 3 -B 2 Blue | grep -A 4 -B 2 Honda
+  196  ls
+  197  cat crimescene
+  198  cat crimescene | grep CLUE
+  199  ls
+  200  cd memberships
+  201  ls
+  202  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | grep "Jeremy Bowers"
+  203  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" 
+  204  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" 
+  205  cat Fitness_Galaxy AAA United_MileagePlus Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" 
+  206  cat AAA United_MileagePlus Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" 
+  207  cat AAA United_MileagePlus Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuskas" 
+  208  ls
+  209  cd code
+  210  ls
+  211  cd unit1
+  212  ls
+  213  cd command-line-murder-mystery
+  214  touch solution.txt
+  215* history
+Jeremy Bowers
